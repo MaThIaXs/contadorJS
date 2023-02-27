@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Tilt Warp', cursive;
+}
+
+body {
+    background-color: #011526;
+    color: #FAF9F6;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+
+.content h1 {
+    font-size: 50pt;
+}
+
+.content p {
+    font-size: 18pt;
+}
+
+#counter button {
+    border: none;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    margin: 0 25px;
+    cursor: pointer;
+}
+
+#counter button i {
+    font-size: 25px;
+    color: #011526;
+}
+
+#counter span {
+    font-size: 20pt;
+}
